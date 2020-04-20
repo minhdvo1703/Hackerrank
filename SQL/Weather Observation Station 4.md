@@ -7,16 +7,16 @@ in the table and the number of distinct CITY entries in the table.
 ## Input Format
 
 The STATION table is described as follows:
-  
-           Station
-          
-       Field  |  Type
-    ID        |     NUMBER
-    CITY      |     VARCHAR2(21)
-    STATE     |     VARCHAR2
-    LAT_N     |     NUMBER
-    LONG_W    |     NUMBER
+
+|  Field | Type |
+|-------|-----|
+| ID  | NUMBER |
+| NAME | VARCHAR2(17)   |
+| COUNTRY CODE  | VARCHAR2(3)  |
+| DISTRICT |  VARCHAR2(20) |
+| POPULATION | NUMBER |
 
 #### Solution
-
-    SELECT COUNT(CITY) - COUNT(DISTINCT CITY) FROM STATION
+```sql
+    SELECT COUNT(CITY) - COUNT(DISTINCT CITY) FROM STATION;
+```
