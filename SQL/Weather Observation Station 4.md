@@ -11,10 +11,10 @@ The STATION table is described as follows:
 |  Field | Type |
 |-------|-----|
 | ID  | NUMBER |
-| NAME | VARCHAR2(17)   |
-| COUNTRY CODE  | VARCHAR2(3)  |
-| DISTRICT |  VARCHAR2(20) |
-| POPULATION | NUMBER |
+| CITY | VARCHAR2(21)   |
+| STATE| VARCHAR2(2)  |
+| LAT_N |  NUMBER |
+| LONG_W | NUMBER |
 
 #### Solution
 ```sql
