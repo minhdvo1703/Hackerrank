@@ -1,2 +1,2 @@
 # Python-Hackerrank
-Lists of Python Practice Problems on Hackerrank
+Including my Python and SQL Practice Problems (with solution) on Hackerrank
